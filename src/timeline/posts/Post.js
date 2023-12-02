@@ -2,6 +2,10 @@ import React from 'react'
 import './Post.css'
 import { Avatar } from '@mui/material'
 import { IoIosMore } from "react-icons/io";
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 
 const Post = () => {
   return (
@@ -20,10 +24,15 @@ const Post = () => {
       <div className='post__footer'>
         <div className='post__footerIcons'>
             <div className='post__iconsMain'>
-                
+                <FavoriteBorderIcon className='postIcon'/>
+                <ChatBubbleOutlineIcon className='postIcon' />
+                <TelegramIcon className='postIcon'/>
             </div>
-            <div className='post__iconSave'></div> 
+            <div className='post__iconSave'>
+              <BookmarkBorderIcon className='postIcon' />
+            </div> 
         </div>
+        Liked by 21 people
       </div>
     </div>
   )
