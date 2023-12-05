@@ -12,16 +12,72 @@ const Suggestions = () => {
       <div className='sugessions__username'>
         <div className='username__left'>
         <span className='avatar'>
-          <Avatar>R</Avatar>
+          <Avatar>J</Avatar>
         </span>
         <div className='username__info'>
-          <span className='username'>Jahfar</span>
+          <span className='username'>Jahfar_</span>
           <span className='relation'>New to instagram</span>
         </div>
 
         </div>
-        <button className=''>Follows</button>
+        <button className='follow__button'>Follows</button>
       </div>
+
+      
+    </div>
+
+    <div className='sugessions__usernames'>
+      <div className='sugessions__username'>
+        <div className='username__left'>
+        <span className='avatar'>
+          <Avatar>R</Avatar>
+        </span>
+        <div className='username__info'>
+          <span className='username'>Rifash_</span>
+          <span className='relation'>New to instagram</span>
+        </div>
+
+        </div>
+        <button className='follow__button'>Follows</button>
+      </div>
+
+      
+    </div>
+
+    <div className='sugessions__usernames'>
+      <div className='sugessions__username'>
+        <div className='username__left'>
+        <span className='avatar'>
+          <Avatar>R</Avatar>
+        </span>
+        <div className='username__info'>
+          <span className='username'>Rinshahan_</span>
+          <span className='relation'>New to instagram</span>
+        </div>
+
+        </div>
+        <button className='follow__button'>Follows</button>
+      </div>
+
+      
+    </div>
+
+    <div className='sugessions__usernames'>
+      <div className='sugessions__username'>
+        <div className='username__left'>
+        <span className='avatar'>
+          <Avatar>S</Avatar>
+        </span>
+        <div className='username__info'>
+          <span className='username'>Shibin_</span>
+          <span className='relation'>New to instagram</span>
+        </div>
+
+        </div>
+        <button className='follow__button'>Follows</button>
+      </div>
+
+      
     </div>
     </div>
   )
